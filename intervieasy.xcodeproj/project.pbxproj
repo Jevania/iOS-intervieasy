@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D01AF462BEBA3E7002F9B41 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D01AF452BEBA3E7002F9B41 /* ResultTableViewCell.swift */; };
+		1D177DDB2BE7D518001431E8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D177DDA2BE7D518001431E8 /* MainViewController.swift */; };
+		1D1F6EB42BE8903000565935 /* TopHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F6EB32BE8903000565935 /* TopHomeView.swift */; };
+		1D1F6EB72BE8B61A00565935 /* Date+FormattedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F6EB62BE8B61A00565935 /* Date+FormattedDate.swift */; };
+		1D2ABE412BED1EA3000A904D /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2ABE402BED1EA3000A904D /* QuestionViewController.swift */; };
+		1D2E27632BE7D35E004444BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E27622BE7D35E004444BE /* AppDelegate.swift */; };
+		1D2E27652BE7D35E004444BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E27642BE7D35E004444BE /* SceneDelegate.swift */; };
+		1D2E276C2BE7D35F004444BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2E276B2BE7D35F004444BE /* Assets.xcassets */; };
+		1D2E276F2BE7D35F004444BE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1D2E276E2BE7D35F004444BE /* Base */; };
+		1D40595B2BEB7B6300C8D460 /* UILabel+CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D40595A2BEB7B6300C8D460 /* UILabel+CustomLabel.swift */; };
+		1D557EDF2BE8CD9500225940 /* PracticeHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D557EDE2BE8CD9500225940 /* PracticeHistoryTableViewCell.swift */; };
+		1D67C1BE2BEB126D0066F194 /* CameraHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D67C1BD2BEB126D0066F194 /* CameraHelper.swift */; };
+		1D67C1C12BEB188B0066F194 /* PracticeDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D67C1BF2BEB188B0066F194 /* PracticeDataModel.xcdatamodeld */; };
+		1D67C1C42BEB1BD80066F194 /* Practice+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D67C1C22BEB1BD80066F194 /* Practice+CoreDataClass.swift */; };
+		1D67C1C52BEB1BD80066F194 /* Practice+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D67C1C32BEB1BD80066F194 /* Practice+CoreDataProperties.swift */; };
+		1D67C1C82BEB21470066F194 /* SpeakHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D67C1C72BEB21470066F194 /* SpeakHelper.swift */; };
+		1D67C1CA2BEB21840066F194 /* TimerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D67C1C92BEB21840066F194 /* TimerHelper.swift */; };
+		1D67C1CC2BEB26B50066F194 /* SpeechArticulationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D67C1CB2BEB26B50066F194 /* SpeechArticulationHelper.swift */; };
+		1D67C1CE2BEB27410066F194 /* UIViewController+ShowToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D67C1CD2BEB27410066F194 /* UIViewController+ShowToast.swift */; };
+		1D67C1D12BEB2A690066F194 /* ContextService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D67C1D02BEB2A690066F194 /* ContextService.swift */; };
+		1D67C1D32BEB2A710066F194 /* PracticeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D67C1D22BEB2A710066F194 /* PracticeService.swift */; };
+		1D6E341C2BEB52ED003B3032 /* interview_questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D6E341B2BEB52ED003B3032 /* interview_questions.json */; };
+		1D6E341E2BEB541A003B3032 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E341D2BEB541A003B3032 /* JSONHelper.swift */; };
+		1D6E34202BEB68FE003B3032 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E341F2BEB68FE003B3032 /* ResultViewController.swift */; };
+		1D8226662BEA5AC100E8403E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8226652BEA5AC100E8403E /* CustomButton.swift */; };
+		1D8BE7C12BEA29A100634AD4 /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BE7C02BEA29A100634AD4 /* RecordingViewController.swift */; };
+		1D8BE7C52BEA2ACA00634AD4 /* FillerWordClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BE7C42BEA2ACA00634AD4 /* FillerWordClassifier.mlmodel */; };
+		1D8E58B82BECE1F600E710DF /* IndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8E58B72BECE1F600E710DF /* IndicatorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D01AF452BEBA3E7002F9B41 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		1D177DDA2BE7D518001431E8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1D1F6EB32BE8903000565935 /* TopHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHomeView.swift; sourceTree = "<group>"; };
+		1D1F6EB62BE8B61A00565935 /* Date+FormattedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+FormattedDate.swift"; sourceTree = "<group>"; };
+		1D2ABE402BED1EA3000A904D /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		1D2E275F2BE7D35E004444BE /* intervieasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intervieasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2E27622BE7D35E004444BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D2E27642BE7D35E004444BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1D2E276B2BE7D35F004444BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D2E276E2BE7D35F004444BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D2E27702BE7D35F004444BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D40595A2BEB7B6300C8D460 /* UILabel+CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+CustomLabel.swift"; sourceTree = "<group>"; };
+		1D557EDE2BE8CD9500225940 /* PracticeHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		1D67C1BD2BEB126D0066F194 /* CameraHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHelper.swift; sourceTree = "<group>"; };
+		1D67C1C02BEB188B0066F194 /* PracticeDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PracticeDataModel.xcdatamodel; sourceTree = "<group>"; };
+		1D67C1C22BEB1BD80066F194 /* Practice+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Practice+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1D67C1C32BEB1BD80066F194 /* Practice+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Practice+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1D67C1C72BEB21470066F194 /* SpeakHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakHelper.swift; sourceTree = "<group>"; };
+		1D67C1C92BEB21840066F194 /* TimerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerHelper.swift; sourceTree = "<group>"; };
+		1D67C1CB2BEB26B50066F194 /* SpeechArticulationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechArticulationHelper.swift; sourceTree = "<group>"; };
+		1D67C1CD2BEB27410066F194 /* UIViewController+ShowToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowToast.swift"; sourceTree = "<group>"; };
+		1D67C1D02BEB2A690066F194 /* ContextService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextService.swift; sourceTree = "<group>"; };
+		1D67C1D22BEB2A710066F194 /* PracticeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeService.swift; sourceTree = "<group>"; };
+		1D6E341B2BEB52ED003B3032 /* interview_questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = interview_questions.json; sourceTree = "<group>"; };
+		1D6E341D2BEB541A003B3032 /* JSONHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
+		1D6E341F2BEB68FE003B3032 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		1D8226652BEA5AC100E8403E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1D8BE7C02BEA29A100634AD4 /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+		1D8BE7C42BEA2ACA00634AD4 /* FillerWordClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FillerWordClassifier.mlmodel; sourceTree = "<group>"; };
+		1D8E58B72BECE1F600E710DF /* IndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D2E275C2BE7D35E004444BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D177DD92BE7D4FA001431E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D1F6EB32BE8903000565935 /* TopHomeView.swift */,
+				1D557EDE2BE8CD9500225940 /* PracticeHistoryTableViewCell.swift */,
+				1D01AF452BEBA3E7002F9B41 /* ResultTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D177DDC2BE7D590001431E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D67C1C62BEB1BE50066F194 /* PracticeItem */,
+				1D67C1BF2BEB188B0066F194 /* PracticeDataModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D177DDD2BE7D5B5001431E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D177DDA2BE7D518001431E8 /* MainViewController.swift */,
+				1D8E58B72BECE1F600E710DF /* IndicatorViewController.swift */,
+				1D8BE7C02BEA29A100634AD4 /* RecordingViewController.swift */,
+				1D2ABE402BED1EA3000A904D /* QuestionViewController.swift */,
+				1D6E341F2BEB68FE003B3032 /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1D1F6EB52BE8B61100565935 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1D1F6EB62BE8B61A00565935 /* Date+FormattedDate.swift */,
+				1D8226652BEA5AC100E8403E /* CustomButton.swift */,
+				1D67C1CD2BEB27410066F194 /* UIViewController+ShowToast.swift */,
+				1D40595A2BEB7B6300C8D460 /* UILabel+CustomLabel.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1D2E27562BE7D35D004444BE = {
+			isa = PBXGroup;
+			children = (
+				1D2E27612BE7D35E004444BE /* intervieasy */,
+				1D2E27602BE7D35E004444BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D2E27602BE7D35E004444BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D2E275F2BE7D35E004444BE /* intervieasy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D2E27612BE7D35E004444BE /* intervieasy */ = {
+			isa = PBXGroup;
+			children = (
+				1D6E341A2BEB52D8003B3032 /* Data */,
+				1D67C1CF2BEB2A550066F194 /* Services */,
+				1D67C1BC2BEB07090066F194 /* Helper */,
+				1D8BE7C32BEA2AB800634AD4 /* MLModel */,
+				1D8BE7C22BEA2AAE00634AD4 /* Core */,
+				1D1F6EB52BE8B61100565935 /* Extension */,
+				1D177DDD2BE7D5B5001431E8 /* Controller */,
+				1D177DDC2BE7D590001431E8 /* Model */,
+				1D177DD92BE7D4FA001431E8 /* View */,
+				1D2E276B2BE7D35F004444BE /* Assets.xcassets */,
+				1D2E276D2BE7D35F004444BE /* LaunchScreen.storyboard */,
+				1D2E27702BE7D35F004444BE /* Info.plist */,
+			);
+			path = intervieasy;
+			sourceTree = "<group>";
+		};
+		1D67C1BC2BEB07090066F194 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1D67C1BD2BEB126D0066F194 /* CameraHelper.swift */,
+				1D67C1C72BEB21470066F194 /* SpeakHelper.swift */,
+				1D67C1C92BEB21840066F194 /* TimerHelper.swift */,
+				1D67C1CB2BEB26B50066F194 /* SpeechArticulationHelper.swift */,
+				1D6E341D2BEB541A003B3032 /* JSONHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1D67C1C62BEB1BE50066F194 /* PracticeItem */ = {
+			isa = PBXGroup;
+			children = (
+				1D67C1C22BEB1BD80066F194 /* Practice+CoreDataClass.swift */,
+				1D67C1C32BEB1BD80066F194 /* Practice+CoreDataProperties.swift */,
+			);
+			path = PracticeItem;
+			sourceTree = "<group>";
+		};
+		1D67C1CF2BEB2A550066F194 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1D67C1D02BEB2A690066F194 /* ContextService.swift */,
+				1D67C1D22BEB2A710066F194 /* PracticeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1D6E341A2BEB52D8003B3032 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1D6E341B2BEB52ED003B3032 /* interview_questions.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1D8BE7C22BEA2AAE00634AD4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1D2E27622BE7D35E004444BE /* AppDelegate.swift */,
+				1D2E27642BE7D35E004444BE /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1D8BE7C32BEA2AB800634AD4 /* MLModel */ = {
+			isa = PBXGroup;
+			children = (
+				1D8BE7C42BEA2ACA00634AD4 /* FillerWordClassifier.mlmodel */,
+			);
+			path = MLModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D2E275E2BE7D35E004444BE /* intervieasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D2E27732BE7D35F004444BE /* Build configuration list for PBXNativeTarget "intervieasy" */;
+			buildPhases = (
+				1D2E275B2BE7D35E004444BE /* Sources */,
+				1D2E275C2BE7D35E004444BE /* Frameworks */,
+				1D2E275D2BE7D35E004444BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = intervieasy;
+			productName = intervieasy;
+			productReference = 1D2E275F2BE7D35E004444BE /* intervieasy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D2E27572BE7D35E004444BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1D2E275E2BE7D35E004444BE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 1D2E275A2BE7D35E004444BE /* Build configuration list for PBXProject "intervieasy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D2E27562BE7D35D004444BE;
+			productRefGroup = 1D2E27602BE7D35E004444BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D2E275E2BE7D35E004444BE /* intervieasy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D2E275D2BE7D35E004444BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2E276C2BE7D35F004444BE /* Assets.xcassets in Resources */,
+				1D2E276F2BE7D35F004444BE /* Base in Resources */,
+				1D6E341C2BEB52ED003B3032 /* interview_questions.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D2E275B2BE7D35E004444BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6E341E2BEB541A003B3032 /* JSONHelper.swift in Sources */,
+				1D67C1C82BEB21470066F194 /* SpeakHelper.swift in Sources */,
+				1D67C1D32BEB2A710066F194 /* PracticeService.swift in Sources */,
+				1D67C1C42BEB1BD80066F194 /* Practice+CoreDataClass.swift in Sources */,
+				1D67C1CC2BEB26B50066F194 /* SpeechArticulationHelper.swift in Sources */,
+				1D67C1C52BEB1BD80066F194 /* Practice+CoreDataProperties.swift in Sources */,
+				1D2ABE412BED1EA3000A904D /* QuestionViewController.swift in Sources */,
+				1D557EDF2BE8CD9500225940 /* PracticeHistoryTableViewCell.swift in Sources */,
+				1D8BE7C52BEA2ACA00634AD4 /* FillerWordClassifier.mlmodel in Sources */,
+				1D67C1CA2BEB21840066F194 /* TimerHelper.swift in Sources */,
+				1D67C1D12BEB2A690066F194 /* ContextService.swift in Sources */,
+				1D8E58B82BECE1F600E710DF /* IndicatorViewController.swift in Sources */,
+				1D67C1BE2BEB126D0066F194 /* CameraHelper.swift in Sources */,
+				1D1F6EB72BE8B61A00565935 /* Date+FormattedDate.swift in Sources */,
+				1D2E27632BE7D35E004444BE /* AppDelegate.swift in Sources */,
+				1D67C1CE2BEB27410066F194 /* UIViewController+ShowToast.swift in Sources */,
+				1D67C1C12BEB188B0066F194 /* PracticeDataModel.xcdatamodeld in Sources */,
+				1D8BE7C12BEA29A100634AD4 /* RecordingViewController.swift in Sources */,
+				1D8226662BEA5AC100E8403E /* CustomButton.swift in Sources */,
+				1D40595B2BEB7B6300C8D460 /* UILabel+CustomLabel.swift in Sources */,
+				1D1F6EB42BE8903000565935 /* TopHomeView.swift in Sources */,
+				1D2E27652BE7D35E004444BE /* SceneDelegate.swift in Sources */,
+				1D177DDB2BE7D518001431E8 /* MainViewController.swift in Sources */,
+				1D01AF462BEBA3E7002F9B41 /* ResultTableViewCell.swift in Sources */,
+				1D6E34202BEB68FE003B3032 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D2E276D2BE7D35F004444BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D2E276E2BE7D35F004444BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D2E27712BE7D35F004444BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D2E27722BE7D35F004444BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D2E27742BE7D35F004444BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z89G6VHQ8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = intervieasy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera will use to record your facial expression while practice";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone will be used to record your speech when you press the \"Start Recording\" button.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app uses photo library to save video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses photo library";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition will be used to determine which words you speak into the device's microphone.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jevania.intervieasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D2E27752BE7D35F004444BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z89G6VHQ8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = intervieasy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera will use to record your facial expression while practice";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone will be used to record your speech when you press the \"Start Recording\" button.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app uses photo library to save video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses photo library";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition will be used to determine which words you speak into the device's microphone.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jevania.intervieasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D2E275A2BE7D35E004444BE /* Build configuration list for PBXProject "intervieasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D2E27712BE7D35F004444BE /* Debug */,
+				1D2E27722BE7D35F004444BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D2E27732BE7D35F004444BE /* Build configuration list for PBXNativeTarget "intervieasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D2E27742BE7D35F004444BE /* Debug */,
+				1D2E27752BE7D35F004444BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1D67C1BF2BEB188B0066F194 /* PracticeDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1D67C1C02BEB188B0066F194 /* PracticeDataModel.xcdatamodel */,
+			);
+			currentVersion = 1D67C1C02BEB188B0066F194 /* PracticeDataModel.xcdatamodel */;
+			name = PracticeDataModel.xcdatamodeld;
+			path = /Users/jevania/Desktop/Productive/ARTE/Project/intervieasy/intervieasy/Model/PracticeDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1D2E27572BE7D35E004444BE /* Project object */;
+}
