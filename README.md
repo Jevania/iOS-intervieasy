@@ -22,6 +22,7 @@ https://github.com/Jevania/repo-intervieasy/assets/70984049/6de3f357-cd67-43c5-b
 - Generate the interview answer score
 - Detect the speaking emotion
 
+<br>
 
 ## `🧚🏼‍♀️Spread the word!`
 If the information from this repo was useful to you in any way, make sure you give it a star 🌟, this way others can find it and benefit too!
