@@ -33,4 +33,4 @@ If the information from this repo was useful to you in any way, make sure you gi
 
 -----
 
-⚠️ _Note: The generated A.I feedback result is for educational/demo purposes only and cannot be relied upon._
+⚠️ Note: _The generated A.I feedback result is for educational/demo purposes only and cannot be relied upon._
