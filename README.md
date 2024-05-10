@@ -1,7 +1,7 @@
 # Intervieasy
 
 ## `Overview🏝` 
-An app that helps you to level up your interview skills by offering insightful mock interview feedback on your speaking delivery.practice you mock interview and get mock interview speaking feedback.
+An app that helps you to level up your interview skills by offering insightful mock interview feedback on your speaking delivery.
 
 ![intervieasy](https://github.com/Jevania/repo-intervieasy/assets/70984049/db8b1bad-2b50-4489-a66e-97bc15973250)
 
