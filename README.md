@@ -16,7 +16,7 @@ An app that helps you to level up your interview skills by offering insightful m
 CoreML, Speech, AVFoundation, CoreData, UIKit (Programmatically)
 
 ## `Demo📱`
-https://github.com/Jevania/repo-intervieasy/assets/70984049/6de3f357-cd67-43c5-b88a-d589c317c849 
+https://github.com/Jevania/iOS-intervieasy/assets/70984049/27b41cbe-421a-40ec-9323-e30f707f8b6d
 
 ## `Currently🎯`
 - Generate the interview answer score
